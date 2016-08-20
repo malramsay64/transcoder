@@ -14,7 +14,8 @@ Running the container is as simple as
     $ docker run -ti -v ~/Video/transcoder:/media/transcoder malramsay/transcoder
 
 This will set up four folders in the transcoder directory if they are not already present
-    * `input` for the input files to convert
-    * `output` for the completed transcodes
-    * `completed-originals`
-    * `work` where the current transcode takes place
+
+* `input` for the input files to convert
+* `output` for the completed transcodes
+* `completed-originals`
+* `work` where the current transcode takes place
